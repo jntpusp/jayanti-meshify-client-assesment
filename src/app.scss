@@ -1,0 +1,43 @@
+@import './assets/styles/variables';
+
+.app {
+	a {
+		color: $primaryBackgroundColor;
+	}
+	.main {
+		margin-top: 80px;
+		margin-bottom: 30px;
+	}
+
+	.pagination {
+		width: 300px;
+		margin: 25px 10px;
+		li {
+			padding: 10px 20px;
+			color: $primaryBackgroundColor;
+			border-style: solid;
+			border-color: $primaryBackgroundColor;
+			border-width: 1px 1px 1px 0px;
+			&.active {
+				a {
+					color: $primaryFontColor
+				}
+				background-color: $primaryBackgroundColor;
+			}
+			&.disabled {
+				a {
+					cursor: default;
+					text-decoration: none;
+					color: gray;
+				}
+			}
+		}
+		li:first-child {
+			border-left-width: 1px;
+			border-radius: 5px 0px 0px 5px;
+		}
+		li:last-child {
+			border-radius: 0px 5px 5px 0px;
+		}
+	}
+}

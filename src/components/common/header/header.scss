@@ -1,0 +1,13 @@
+@import './../../../assets/styles/variables';
+
+.app-header {
+	background-color: $primaryBackgroundColor;
+	.app-logo {
+		margin-right: 5px;
+	}
+	.app-title {
+		display: inline-block;
+		margin-top: 5px;
+		color: $primaryFontColor;
+	}
+}

@@ -1,0 +1,1 @@
+export const NO_OF_TOP_MOST_USED_WORDS_TO_DISPLAY = 20;
