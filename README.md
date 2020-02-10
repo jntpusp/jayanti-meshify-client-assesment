@@ -1,5 +1,7 @@
 This React app gathers unique tweets with hashtag #IoT and displays chart showing the top 20 words used in the tweets, excluding common stopwords.
 
+addition
+
 Follow the below steps to execute the project:
 
 ### `git clone https://github.com/jntpusp/jayanti-meshify-client-assesment`
