@@ -1,4 +1,6 @@
-This React app gathers unique tweets with hashtag #IoT and displays chart showing the top 20 words used in the tweets, excluding common stopwords.
+This React app gathers unique tweets with hashtag #IoT and displays chart showing the top 20 words used in the tweets, excluding common start.
+
+addition
 
 Follow the below steps to execute the project:
 
